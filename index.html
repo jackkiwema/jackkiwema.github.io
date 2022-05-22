@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jack Kiwema</title>
+    <script src="C:\Users\jolum\Documents\Jack_Documents\Git_Projects\bios\jackkiwema_files\tuicss.min.js"></script>
+    <link rel="stylesheet" href="C:\Users\jolum\Documents\Jack_Documents\Git_Projects\bios\jackkiwema_files\tuicss.min.css">
+</head>
+
+<body>
+    <div class="tui-screen-1024-768 black white-text" style="padding: 2px">
+        <img src="C:\Users\jolum\Documents\Jack_Documents\Git_Projects\bios\jackkiwema_files\pcstartup1.png" width="40px" height="40px" style="float: left" />
+        <img src="C:\Users\jolum\Documents\Jack_Documents\Git_Projects\bios\jackkiwema_files\pcstartup2.png" width="200px" height="150px" style="float: right" />
+        <div style="margin-top: 4px"></div>
+        Award Medallion BIOS v6.0, An Energy Star Ally<br>
+        Copyright (C) 2015 - 2022, Award Software, Inc.<br><br>
+        Intel(R) Pentium(R) 4 2800 MHz Processor<br>
+        Memory Test : &nbsp;&nbsp; 262144K OK<br><br>
+        <div id="session-1" style="display: none">
+            <br><br>First name .....: Jack<br>
+        </div>
+        <div id="session-2" style="display: none">
+            Last name ......: Kiwema<br>
+        </div>
+        <div id="session-3" style="display: none">
+            Born ...........: Go figure
+        </div>
+	<div id="session-4" style="display: none">
+            Profession .....: Systems Administrator
+        </div>
+	<div id="session-5" style="display: none">
+            Nickname .......: Jack
+        </div>
+	<div id="session-6" style="display: none">
+            <br>Linkedin .......: <a href=https://www.linkedin.com/in/jackson-olum-career/>https://www.linkedin.com/in/jackson-olum-career/</a>
+        </div>
+	<div id="session-7" style="display: none">
+            Github .........: <a href=https://github.com/jackkiwema>https://github.com/jackkiwema</a>
+        </div>
+	<div id="session-8" style="display: none">
+            IRC ............: jack @ qnet/ircnet
+        </div>
+	<div id="session-9" style="display: none">
+            Email ..........: jackkiwema@gmail.com 
+        </div>
+	<div id="session-10" style="display: none">
+            <br>Initializing about ...
+        </div>
+	<div id="session-11" style="display: none">
+            <br>System Administrator with several years of professional experience in different roles.
+            <br>Currently working as systems Administrator with the fastest Telecommunications in Kenya.
+        </div>
+	<div id="session-12" style="display: none">
+            <br><br><span id="cursor">_</span>
+        </div>
+        <div class="tui-statusbar absolute black white-text">
+            <ul>
+                <li style="margin-left: 0px">Press <b>DEL</b> to enter SETUP
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+    window.onload = function() {
+        setTimeout(function() { showSession("session-1"); }, 300);
+        setTimeout(function() { showSession("session-2"); }, 400);
+        setTimeout(function() { showSession("session-3"); }, 450);
+        setTimeout(function() { showSession("session-4"); }, 500);
+        setTimeout(function() { showSession("session-5"); }, 550);
+        setTimeout(function() { showSession("session-6"); }, 900);
+        setTimeout(function() { showSession("session-7"); }, 950);
+        setTimeout(function() { showSession("session-8"); }, 1000);
+        setTimeout(function() { showSession("session-9"); }, 1050);
+	setTimeout(function() { showSession("session-10"); }, 1100);
+	setTimeout(function() { showSession("session-11"); }, 2000);
+	setTimeout(function() { showSession("session-12"); }, 2500);
+    };
+    function showSession(id) {
+        const session = document.getElementById(id);
+        session.style.display = "block";
+    }
+</script>
+<script>
+window.addEventListener('keyup', function(event) {
+   if (event.keyCode === 46) {
+	window.location.href = "C:\Users\jolum\Documents\Jack_Documents\Git_Projects\bios\bios.html";
+   }
+});
+
+var cursor = true;
+var speed = 250;        
+setInterval(() => {
+  if(cursor) {
+      document.getElementById('cursor').style.opacity = 0;
+      cursor = false;
+  }else {
+      document.getElementById('cursor').style.opacity = 1;
+      cursor = true;
+      }
+  }, speed);
+
+</script>
+</html>
+
