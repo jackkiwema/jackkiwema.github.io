@@ -1,4 +1,5 @@
 ## Projects Landing page
+
 ### Header Layer of rows 
 - Horizontal Tabs: 
 - Home - Create a Home Directory containing the body of the web page
@@ -8,7 +9,7 @@
 Recent Projects
 - Sign Up 
 - Contact Me (Form that includes: Name: Email: Message: )
-- Inspiration - [attached website](https://asaolu.netlify.app/contact)
+
 ### Body Layer
 - Hi, 
 - I'm Jack Kiwema, 
@@ -16,6 +17,16 @@ Skilled system administrator in maintaining, supporting networks, systems and co
 
 ### Footer Layer 
 - Symbols of contact: Linkedin, Github, Twitter
+
+### Installations to be done
+- Download minified css and javascript files to css and js folder
+
+
+
+### Inspiration
+ - [attached website](https://asaolu.netlify.app/contact)
+ - [Inspiration](https://youtu.be/dtTWD0ystG0)
+
 
 ### TODO
 - Editing in github Markdown 

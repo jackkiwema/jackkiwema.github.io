@@ -6,6 +6,8 @@
 {
     height: 100vh;
 }
+
+/* Shadow below navigation bar under the logo */
 .navbar-style
 {
     box-shadow: 0 5px 10px #efefef;
