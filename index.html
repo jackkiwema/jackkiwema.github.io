@@ -1,122 +1,78 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <title>Jack Kiwema</title>
-
-    <meta charset="utf-8" />
-	<meta name="keywords" content="system Administrator, sys admin, sys administrator, customer support engineer, customer support technician, jack kiwema, jackson seth kiwema olum, olum, kiwema, seth, jackson, front end developer">
-	<meta name="robots" content="index, follow">
-	<meta name="revisit-after" content="1 days">
-	<meta name="author" content="Jack Kiwema">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="app/css/tuicss.min.css"/>
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	<link rel="shortcut icon" href="app/images/icon.png">
-	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/images/icon.ico" /><![endif]-->
-
-    <script src="app/js/tuicss.min.js.download"></script>
-    <link rel="stylesheet" href="app/css/tuicss.min.css">
-</head>
-
-<body>
-    <div class="tui-screen-1024-768 black white-text" style="padding: 2px">
-        <img src="app/images/pcstartup1.png" width="40px" height="40px" style="float: left" />
-        <img src="app/images/pcstartup2.png" width="200px" height="150px" style="float: right" />
-        <div style="margin-top: 4px"></div>
-        Hi, You have reached Jack Kiwema's page v1.0, System Administrator<br>
-        Copyright (C) 2015 - 2022, Zoom Broadbands, Limited<br><br>
-        Intel(R) Pentium(R) 4 2800 MHz Processor<br>
-        Memory Test : &nbsp;&nbsp; 262144K OK<br><br>
-        <div id="session-1" style="display: none">
-            <br><br>First name .....: Jack<br>
-        </div>
-        <div id="session-2" style="display: none">
-            Last name ......: Kiwema<br>
-        </div>
+    <head>
+        <!-- Required Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-	<div id="session-4" style="display: none">
-            Profession .....: System Administrator
-        </div>
-	<div id="session-5" style="display: none">
-            Twitter .......: <a href="https://twitter.com/jokseth">@jokseth</a>
-        </div>
+        <link rel="shortcut icon" href="app/images/logo.png">
+        <link rel="stylesheet" type="text/css" href="app/css/styles.css">
 
-    <div id="session-8" style="display: none">
-            Projects ............: <a href="http://www.jackkiwema.com/projects/">https://jackkiwema.com/projects/</a>
-        </div>
-	<div id="session-6" style="display: none">
-            <br>Linkedin .......: <a href=https://www.linkedin.com/in/jackson-olum-career/ >https://www.linkedin.com/in/jackkiwema/</a>
-        </div>
-	<div id="session-7" style="display: none">
-            Github .........: <a href=https://github.com/jackkiwema>https://github.com/jackkiwema</a>
-        </div>
-	
-	<div id="session-9" style="display: none">
-            Email ..........: jackkiwema@gmail.com 
-        </div>
-	<div id="session-10" style="display: none">
-            <br>Initializing about ...
-        </div>
-	<div id="session-11" style="display: none">
-            <br>System Administrator with demonstrated years of professional experience in both hardware and software.
-            <br>Currently working with the fastest growing Telecommunications in Kenya.
-        </div>
-	<div id="session-12" style="display: none">
-            <br><br><span id="cursor">_</span>
-        </div>
-        <div class="tui-statusbar absolute black white-text">
-            <ul>
-                <li style="margin-left: 0px">Press <b>DEL</b> to enter SETUP
-                </li>
-            </ul>
-        </div>
-    </div>
-</body>
-<script>
-    window.onload = function() {
-        setTimeout(function() { showSession("session-1"); }, 300);
-        setTimeout(function() { showSession("session-2"); }, 400);
-        setTimeout(function() { showSession("session-3"); }, 450);
-        setTimeout(function() { showSession("session-4"); }, 500);
-        setTimeout(function() { showSession("session-5"); }, 550);
-        setTimeout(function() { showSession("session-6"); }, 900);
-        setTimeout(function() { showSession("session-7"); }, 950);
-        setTimeout(function() { showSession("session-8"); }, 1000);
-        setTimeout(function() { showSession("session-9"); }, 1050);
-	setTimeout(function() { showSession("session-10"); }, 1100);
-	setTimeout(function() { showSession("session-11"); }, 2000);
-	setTimeout(function() { showSession("session-12"); }, 2500);
-    };
-    function showSession(id) {
-        const session = document.getElementById(id);
-        session.style.display = "block";
-    }
-</script>
-<script>
-window.addEventListener('keyup', function(event) {
-   if (event.keyCode === 46) {
-	window.location.href = "https://jackkiwema.github.io/bios/";
-   }
-});
+        <!-- 3.4.1 compiled and minified CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="app/css/bootstrap.min.css">
 
-var cursor = true;
-var speed = 250;        
-setInterval(() => {
-  if(cursor) {
-      document.getElementById('cursor').style.opacity = 0;
-      cursor = false;
-  }else {
-      document.getElementById('cursor').style.opacity = 1;
-      cursor = true;
-      }
-  }, speed);
+        <title>Jack Kiwema</title>
 
-</script>
+    </head>
+    <body>
+        <!-- Header class -->
+        <header class="header">
+            
+            <nav class="navbar navbar-style">
+                <div class="container">
+                    <!-- Collapses Menu icon when shrinked in and out -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                        <!-- Logo in the Header part of the body -->
+                        <a href=""><img class="logo" src="app/images/logo.png"></a>
+                    </div>
+                    <!-- Activates Menu icon -->
+                    <div class="collapse navbar-collapse" id="micon">
+
+                        <!-- Navigation Bar class to the right -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="https://jackkiwema.github.io/">Home</a></li>
+                            <li><a href="https://jackkiwema.github.io/signup/">About Me</a> </li>
+                            <li><a href="https://jackkiwema.github.io/projects/">Projects</a></li>
+                            <li><a href="https://jackkiwema.github.io/contact/">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="row">
+
+                    <!--6th grid column for the body, Text part-->
+                    <div class="col-sm-6 banner-info">
+                        <h1>Hi</h1>
+                            <!-- Makes text bigger -->
+                            <p class="big-text">I'm Jack Kiwema</p>
+                            <p>Skilled system administrator in maintaining, supporting networks, systems and computing resources, and currently exploring cloud administration.</p>
+
+                        
+                    </div>
+                    <!-- 6th grid column for the body, Photo part -->
+                    <div class="col-sm-6 banner-image">
+                        <img src="app/images/home.png" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+
+        <!-- jQuery library -->
+        <script src="app/js/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="app/js/bootstrap.min.js"></script>
+
+    </body>
 </html>
-
