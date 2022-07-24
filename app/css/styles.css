@@ -16,6 +16,11 @@
     position: relative;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* Shadow below navigation bar under the logo, capitalizes Menu icons */
 .navbar-style
 {
