@@ -3,12 +3,17 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
 }
 
 /* 1vh = 1% height of view port, 100% view height of view port*/
 .header
 {
     height: 100vh;
+    background-color: whitesmoke;
+    padding: 0 8%;
+    position: relative;
 }
 
 /* Shadow below navigation bar under the logo, capitalizes Menu icons */
