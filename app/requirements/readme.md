@@ -30,3 +30,9 @@ Skilled system administrator in maintaining, supporting networks, systems and co
 
 ### TODO
 - Editing in github Markdown 
+
+
+#### Footer
+- Inspiration [website](https://fantacydesigns.com/footer-design-in-html/)
+
+
