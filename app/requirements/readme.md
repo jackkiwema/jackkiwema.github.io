@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-## Functional Requirements
-- Link jackkiwema.github.io www.jackkiwema.com
-
-### Secure jackkiwema.com to https
-- Certification creation on Let's encrypt both on github pages and domain name
-
-
-=======
 ## Projects Landing page
 
 ### Header Layer of rows 
@@ -39,4 +30,3 @@ Skilled system administrator in maintaining, supporting networks, systems and co
 
 ### TODO
 - Editing in github Markdown 
->>>>>>> c66cef45fb8340c224ef70a747cc540b6168d755
