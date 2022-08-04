@@ -44,6 +44,10 @@ li a
     color: #333;
 
 }
+
+.hi{
+  color: darkorange;
+}
 /* CSS for big text in the document */
 .big-text
 {
