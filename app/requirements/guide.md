@@ -36,7 +36,3 @@ Skilled system administrator in maintaining, supporting networks, systems and co
 - Inspiration [website](https://fantacydesigns.com/footer-design-in-html/)
 
 
-#### Personal-Portfolio website using html, css and java-script
-* Inspiration [video](https://youtu.be/0YFrGy_mzjY)
-
-* Message [contact](https://github.com/jamiewilson/form-to-google-sheets) inspired from here
