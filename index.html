@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1, width=device-width, shrink-to-fit=no">
         <title>Jack Kiwema</title>
         <link rel="stylesheet" type="text/css" href="app/css/style.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
@@ -21,9 +21,11 @@
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
-                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                        <li><i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i></li>
+                        
                     </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    
                 </nav>
                 <div class="header-text">
                     <p>System Administrator</p>
@@ -31,12 +33,12 @@
                 </div>
             </div>
         </div>
-<!-------------about------------>
+<!-- about -->
         <div id="about">
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="/app/images/user.png" alt="">
+                        <img src="/app/images/user1.jpg" alt="">
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
@@ -75,7 +77,7 @@
                 </div>
             </div>
         </div>
-<!------------------ Services ------------ -->
+<!-- Services -->
 <div id="services">
     <div class="container">
         <h1 class="sub-title">My Services</h1>
@@ -104,7 +106,7 @@
     </div>
 </div>
 
-<!----------- PortFolio ------------------ -->
+<!-- PortFolio -->
 
 <div id="portfolio">
     <div class="container">
@@ -117,7 +119,6 @@
                     <p>The app connects you to the talented people around the world. 
                         Download it from play store.</p>
                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </p>
                 </div>
             </div>
             <div class="work">
@@ -127,7 +128,6 @@
                     <p>The app connects you to the talented people around the world. 
                         Download it from play store.</p>
                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </p>
                 </div>
             </div>
             <div class="work">
@@ -137,7 +137,6 @@
                     <p>The app connects you to the talented people around the world. 
                         Download it from play store.</p>
                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </p>
                 </div>
             </div>
         </div>
@@ -145,7 +144,7 @@
     </div>
 </div>
 
-<!--- -------- Contact -------------- ----->
+<!-- Contact -->
 <div id="contact">
     <div class="container">
         <div class="row">
@@ -165,9 +164,9 @@
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <input autocomplete="off" type="text" name="Name" placeholder="Your Name" required>
+                    <input autocomplete="off" type="email" name="Email" placeholder="Your Email" required>
+                    <textarea autocomplete="off" name="Message" rows="6" placeholder="Your Message"></textarea>
                     <button type="submit" class="btn btn2">submit</button>
                 </form>
                 <span id="msg"></span>
@@ -175,7 +174,7 @@
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright <i class="fa-solid fa-copyright"></i> 2022 Jack Kiwema</p>
+        <p>Copyright <i class="fa-solid fa-copyright"></i>&#169 2022 Jack Kiwema</p>
     </div>
 </div>
 
