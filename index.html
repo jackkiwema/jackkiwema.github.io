@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="app/css/style.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
         <script src="https://kit.fontawesome.com/5e8b8bd7e4.js" crossorigin="anonymous"></script>
+        <script src="app/js/scripts.js"></script>
         
     </head>
 <body>
@@ -190,6 +191,24 @@
         }
         event.currentTarget.clasList.add("active-link");
         document.getElementById("tabname").classList.add("active-tab");
+    }
+</script>
+
+<script>
+    function tabopen()
+    {
+        let link = document.querySelector('#about').tablinks;
+        let content = document.querySelector('#about').tabcontents;
+
+        for (link of tablinks){
+            link.classList.remove("active-link");
+        }
+
+        for (content of tabcontents){
+            content.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById("link").classList.add("active-tab");
     }
 </script>
 
