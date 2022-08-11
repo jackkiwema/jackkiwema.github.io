@@ -6,9 +6,11 @@
         <meta name="viewport" content="initial-scale=1, width=device-width, shrink-to-fit=no">
         <title>Jack Kiwema</title>
         <link rel="stylesheet" type="text/css" href="app/css/style.css">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet"> 
         <script src="https://kit.fontawesome.com/5e8b8bd7e4.js" crossorigin="anonymous"></script>
-        <script src="app/js/scripts.js"></script>
+        <script src="app/js/scripts.js" type="text/javascript"></script>
         
     </head>
 <body>
@@ -175,7 +177,7 @@
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright <i class="fa-solid fa-copyright"></i>&#169 2022 Jack Kiwema</p>
+        <p>Copyright <i class="fa-solid fa-copyright"></i> 2022 Jack Kiwema</p>
     </div>
 </div>
 
@@ -197,8 +199,8 @@
 <script>
     function tabopen()
     {
-        let link = document.querySelector('#about').tablinks;
-        let content = document.querySelector('#about').tabcontents;
+        let link = document.getElementsByClassName('tab-links');
+        let content = document.getElementsByClassName('tab-contents');
 
         for (link of tablinks){
             link.classList.remove("active-link");
