@@ -9,7 +9,7 @@
 /* Tag for the whole HTML */
 html{
     font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', 'sans-serif';
     scroll-behavior: smooth;
 }
 /* Portfolio Anchor Tag */
