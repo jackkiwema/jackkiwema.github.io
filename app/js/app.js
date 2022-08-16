@@ -1,4 +1,3 @@
-<script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
     function opentab(tabname){
@@ -10,20 +9,17 @@
         }
         event.currentTarget.clasList.add("active-link");
         document.getElementById("tabname").classList.add("active-tab");
-    }
-</script>
+    };
 
-<script>
+
     var sidemenu = document.getElementById("sidemenu");
     function openmenu(){
         sidemenu.style.right = "0";
     }
     function closemenu(){
         sidemenu.style.right = "-200px";
-    }
-</script>
+    };
 
-<script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbw5HQDJwzYJ4S93i6OySXMX9Ihkky3DtGtJPduX2MNpk744L4Q4E50BM7EKNO6PsYbRoQ/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById("msg")
@@ -39,6 +35,4 @@
             form.reset()
         })
         .catch(error => console.error('Error!', error.message))
-    })
-    </script>
-
+    });
