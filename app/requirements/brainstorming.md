@@ -8,3 +8,4 @@
 
 ### Customized details to match my [profile](https://jackkiwema.com)
 
+### Fix About javascript on a new branch from [inspiration](https://codepen.io/danwilson/pen/dqZvmx)
