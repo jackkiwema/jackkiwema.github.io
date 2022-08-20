@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app/css/style.css">
+    <script src="https://kit.fontawesome.com/5e8b8bd7e4.js" crossorigin="anonymous"></script> 
     <title>One Page</title>
 </head>
 <body>
@@ -99,19 +100,19 @@
         </div>
         <div class="service-bottom">
             <div class="service-item">
-                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+                <i class="fa-solid fa-code"></i>
                 <h2>System Administrator</h2>
                 <p>Experienced in configuration of enterprise core routers, windows Active Directory servers and Linux servers</p>
                 <a href="#">Learn More</a>
             </div>
             <div class="service-item">
-                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+                <i class="fa-solid fa-crop-simple"></i>
                 <h2>Web Development</h2>
                 <p>Skilled in building systems interacted with on the web, some of the stacks I'm currently using includes: react framework, php and flask framework</p>
                 <a href="#">Learn More</a>
             </div>
             <div class="service-item">
-                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+                <i class="fa-brands fa-app-store"></i>
                 <h2>Cloud Administrator</h2>
                 <p>Supporting systems in cloud, with focus on Google GCP</p>
                 <a href="#">Learn More</a>
@@ -174,49 +175,35 @@
         </div>
     </section>
     <!--End of Projects Section-->
-
-    <section id="contact">
-        
-    </section>
     
-
-    <!--Contact Section-->
-    <!--
     <section id="contact">
         <div class="contact container">
             <div><h1 class="section-title">Contact <span>Info</span></h1></div>
             <div class="contact-items">
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></div>
-                    <div class="contact-info">
-                        <h1>Phone</h1>
-                        <h2>+1 234 123 1234</h2>
-                        <h2>+1 234 123 1234</h2>
-                    </div>
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-paper-plane"></i><a href = "mailto:jackkiwema@gmail.com">  jackkiwema@gmail.com</a></p>
+                <p><i class="fa-brands fa-skype"></i><a href = "skype:jackkiwema_1?userinfo">  live:jackkiwema_1</a></p>
+                <div class="social-icons">
+                    <a href="https://github.com/jackkiwema"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jackkiwema/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/jokseth"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.facebook.com/seth.kiwema/"><i class="fa-brands fa-facebook"></i></a>
                 </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
-                    <div class="contact-info">
-                        <h1>Email</h1>
-                        <h2>info@gmail.com</h2>
-                        <h2>abcd@gmail.com</h2>
-                    </div>
+                <a href="app/resources/my-cv.pdf" download class="btn btn2">Download CV</a>
                 </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png"/></div>
-                    <div class="contact-info">
-                        <h1>Address</h1>
-                        <h2>Beach Road, Mombasa, Kenya</h2>
-                    </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input autocomplete="off" type="text" name="Name" placeholder="Your Name" required>
+                        <input autocomplete="off" type="email" name="Email" placeholder="Your Email" required>
+                        <textarea autocomplete="off" name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
     </section>
-
--->
     <!--End of Contact Section-->
-
-
 
     <!--Footer-->
     <section id="footer">

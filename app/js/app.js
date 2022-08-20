@@ -31,3 +31,20 @@ tablinks.addEventListener('click', ()=>{
     tablinks.classList.toggle('active-link');
     tabcontents.classList.toggle('active-tab');
 });
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbw5HQDJwzYJ4S93i6OySXMX9Ihkky3DtGtJPduX2MNpk744L4Q4E50BM7EKNO6PsYbRoQ/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    });
