@@ -419,6 +419,26 @@ p{
     z-index: 1;
     overflow: hidden;
 }
+#services .service-item h2{
+    font-size: 30px;
+}
+#services .service-item p{
+    color: #fff;
+}
+
+#services .service-item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#services .service-item:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+    transition: height 0.5s;
+}
 
 #services .service-item::after{
     content: '';
