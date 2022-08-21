@@ -1,100 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-        <title>Jack Kiwema</title>
-        <link rel="stylesheet" type="text/css" href="app/css/style.css">
-        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
-        <script src="https://kit.fontawesome.com/5e8b8bd7e4.js" crossorigin="anonymous"></script>
-        
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app/css/style.css">
+    <script src="https://kit.fontawesome.com/5e8b8bd7e4.js" crossorigin="anonymous"></script> 
+    <title>One Page</title>
+</head>
 <body>
-        <div id="header">
-            <div class="container">
-                <nav>
-                    <img src="app/images/logo.png" alt="logo">
-                    <ul id="sidemenu">
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+    <!--Header-->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero"><h1><span>J</span>ack<span>.</span></h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#services" data-after="Services">Services</a></li>
+                        <li><a href="#projects" data-after="Projects">Projects</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
                     </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-                </nav>
-                <div class="header-text">
-                    <p>System Administrator</p>
-                    <h1>Hi👋, I'm <span>Jack Kiwema</span><br>From Kenya</h1>
                 </div>
             </div>
         </div>
-<!-------------about------------>
-        <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="/app/images/user.png" alt="">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title">About Me</h1>
-                        <p>Hello, I'm Jack Kiwema, skilled System Administrator in maintaining, supporting networks, systems and 
-                            computing resources. I'm currently exploring supporting legacy systems on the cloud.
-                        </p>
-
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                                <li><span>Web Development</span><br>Web App Development</li>
-                                <li><span>App Development</span><br>Building Android/iOS apps</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>2022 - Current</span><br>System Administrator at Zoom Fibre</li>
-                                <li><span>2019 - 2021</span><br>Home Solutions Dispatch at Safaricom Limited</li>
-                                <li><span>2018 - 2019</span><br>NOC Assistant at Masaba Services Limited</li>
-                                <li><span>2016 - 2018</span><br>IT Front Office at Mudasa Academy</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>2022</span><br>Huawei Security(HCIA Security)</li>
-                                <li><span>2016</span><br>BBA from Maseno University</li>
-                                <li><span>2020</span><br>Linux Associate from LFCA</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-<!------------------ Services ------------ -->
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
+    </section>
+    <!--End of Header-->
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero container">
             <div>
+                <h1>Hi👋 <span></span></h1>
+                <h1>My Name is<span></span> </h1>
+                <h1>Jack Kiwema<span></span></h1>
+                <a href="#projects" type="button" class="cta">Portfolio</a>
+            </div>
+        </div>
+    </section>
+    <!--End of Hero Section-->
+
+    <!--About Section-->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./app/images/user1.jpg" alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>me</span></h1>
+                <h2>System Administrator</h2>
+                <p>Hello, I'm Jack Kiwema, skilled System Administrator in maintaining, supporting networks, systems and 
+                    computing resources. I'm currently exploring supporting legacy systems on the cloud.</p>
+                    <a href="#" class="cta">Download Resume</a>
+                
+                <div class="tab-titles">
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Routing & Switching</span><br>Configuring and Maintaining Routers and Switches</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Cloud Development</span><br>Building and Maintaining applications in Cloud</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>System Administrator at Zoom Fibre</li>
+                        <li><span>2019 - 2021</span><br>Home Solutions Dispatch at Safaricom Limited</li>
+                        <li><span>2018 - 2019</span><br>NOC Assistant at Masaba Services Limited</li>
+                        <li><span>2016 - 2018</span><br>IT Front Office at Mudasa Academy</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Huawei Security(HCIA Security)</li>
+                        <li><span>2016</span><br>BBA from Maseno University</li>
+                        <li><span>2020</span><br>Linux Associate from LFCA</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--End of About Section-->
+
+    <!--Service Section-->
+    <section id="services">
+    <div class="services container">
+        <div class="service-top">
+            <h1 class="section-title">serv<span>i</span>ces</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias voluptatum explicabo!</p>
+        </div>
+        <div class="service-bottom">
+            <div class="service-item">
                 <i class="fa-solid fa-code"></i>
                 <h2>System Administrator</h2>
                 <p>Experienced in configuration of enterprise core routers, windows Active Directory servers and Linux servers</p>
                 <a href="#">Learn More</a>
             </div>
-
-            <div>
+            <div class="service-item">
                 <i class="fa-solid fa-crop-simple"></i>
                 <h2>Web Development</h2>
                 <p>Skilled in building systems interacted with on the web, some of the stacks I'm currently using includes: react framework, php and flask framework</p>
                 <a href="#">Learn More</a>
             </div>
-
-            <div>
+            <div class="service-item">
                 <i class="fa-brands fa-app-store"></i>
                 <h2>Cloud Administrator</h2>
                 <p>Supporting systems in cloud, with focus on Google GCP</p>
@@ -102,125 +119,114 @@
             </div>
         </div>
     </div>
-</div>
+</section>
+    <!-- End of Service Section -->
 
-<!----------- PortFolio ------------------ -->
-
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="app/images/work-1.png" alt="">
-                <div class="layer">
-                    <h3>Social Media App</h3>
-                    <p>The app connects you to the talented people around the world. 
-                        Download it from play store.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </p>
-                </div>
+    <!--Projects Section-->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Recent <span>Projects</span></h1>
             </div>
-            <div class="work">
-                <img src="app/images/work-2.png" alt="">
-                <div class="layer">
-                    <h3>Music App</h3>
-                    <p>The app connects you to the talented people around the world. 
-                        Download it from play store.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </p>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 1</h1>
+                        <h2>Coding is Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="/app/images/img-1.png" alt="img">
+                    </div>
                 </div>
-            </div>
-            <div class="work">
-                <img src="app/images/work-3.png" alt="">
-                <div class="layer">
-                    <h3>Online Shopping App</h3>
-                    <p>The app connects you to the talented people around the world. 
-                        Download it from play store.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </p>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 2</h1>
+                        <h2>Coding is Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="/app/images/img-1.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 3</h1>
+                        <h2>Coding is Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="/app/images/img-1.png" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 4</h1>
+                        <h2>Coding is Love</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+                    </div>
+                    
+                    <div class="project-img">
+                        <img src="/app/images/img-1.png" alt="img">
+                    </div>
                 </div>
             </div>
         </div>
-        <a href="#" class="btn">See more</a>
-    </div>
-</div>
-
-<!--- -------- Contact -------------- ----->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>  jackkiwema@gmail.com</p>
-                <p><i class="fa-brands fa-skype"></i>  live:jackkiwema_1</p>
+    </section>
+    <!--End of Projects Section-->
+    
+    <section id="contact">
+        <div class="contact container">
+            <div><h1 class="section-title">Contact <span>Info</span></h1></div>
+            <div class="contact-items">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-paper-plane"></i><a href = "mailto:jackkiwema@gmail.com">  jackkiwema@gmail.com</a></p>
+                <p><i class="fa-brands fa-skype"></i><a href = "skype:jackkiwema_1?userinfo">  live:jackkiwema_1</a></p>
                 <div class="social-icons">
                     <a href="https://github.com/jackkiwema"><i class="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/jackkiwema/"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://twitter.com/jokseth"><i class="fa-brands fa-square-twitter"></i></a>
                     <a href="https://www.facebook.com/seth.kiwema/"><i class="fa-brands fa-facebook"></i></a>
-                    
                 </div>
                 <a href="app/resources/my-cv.pdf" download class="btn btn2">Download CV</a>
-
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">submit</button>
-                </form>
-                <span id="msg"></span>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input autocomplete="off" type="text" name="Name" placeholder="Your Name" required>
+                        <input autocomplete="off" type="email" name="Email" placeholder="Your Email" required>
+                        <textarea autocomplete="off" name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright <i class="fa-solid fa-copyright"></i> 2022 Jack Kiwema</p>
-    </div>
-</div>
+    </section>
+    <!--End of Contact Section-->
 
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.clasList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.clasList.remove("active-tab");
-        }
-        event.currentTarget.clasList.add("active-link");
-        document.getElementById("tabname").classList.add("active-tab");
-    }
-</script>
-
-<script>
-    var sidemenu = document.getElementById("sidemenu");
-    function openmenu(){
-        sidemenu.style.right = "0";
-    }
-    function closemenu(){
-        sidemenu.style.right = "-200px";
-    }
-</script>
-
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbw5HQDJwzYJ4S93i6OySXMX9Ihkky3DtGtJPduX2MNpk744L4Q4E50BM7EKNO6PsYbRoQ/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+    <!--Footer-->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand"><h1><span>J</span>ack<span>.</span></h1></div>
+            <h2>System Administrator</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/github.png"/></a>
+                </div>
+                <div class="social-item">
+                    <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png"/>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+                </div>
+            </div>
+            <p>Copyright &#169 2022 Jack Kiwema. All rights reserved</p>
+        </div>
+    </section>
+    <!--End of Footer-->
+    <script src="./app/js/app.js"></script>
 </body>
 </html>

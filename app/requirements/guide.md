@@ -28,11 +28,15 @@ Skilled system administrator in maintaining, supporting networks, systems and co
  - [Inspiration](https://youtu.be/dtTWD0ystG0)
 
 
-### TODO
-- Editing in github Markdown 
-
-
 #### Footer
 - Inspiration [website](https://fantacydesigns.com/footer-design-in-html/)
+
+#### CS50 Course, guide to moving js script in it's own folder
+
+#### watch inspiration video link, to use SEO content indicated above
+- Message [contact](https://github.com/jamiewilson/form-to-google-sheets) inspired from here
+
+Pass code through validator.w3.org, and correct errors -- Done, passed html checker
+
 
 
