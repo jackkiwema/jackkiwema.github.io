@@ -7,12 +7,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /* Tag for the whole HTML */
 html{
     font-size: 10px;
     font-family: 'Montserrat', 'sans-serif';
     scroll-behavior: smooth;
+}
+body{
+    background: #080808;
+    color: #fff;
 }
 /* Portfolio Anchor Tag */
 a{
@@ -31,7 +34,7 @@ img{
     object-fit: cover;
 }
 p{
-    color: black;
+    color: #fff;
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
@@ -42,7 +45,7 @@ p{
 .section-title {
     font-size: 4rem;
     font-weight: 300;
-    color: black;
+    color: #fff;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -314,7 +317,7 @@ p{
     margin-bottom: 10px;
 }
 #about .col-right .cta{
-    color: black;
+    color: #fff;
     margin-bottom: 20px;
     padding: 10px 20px;
     font-size: 2rem;
@@ -395,7 +398,7 @@ p{
 #services .section-title {
     font-size: 4rem;
     font-weight: 300;
-    color: black;
+    color: #fff;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -421,6 +424,7 @@ p{
     grid-gap: 40px;
     margin-top: 50px;
 }
+
 #services .service-item{
     background: #262626;
     padding: 40px;
@@ -642,7 +646,7 @@ p{
 }
 
 .contact-left p a{
-    color: black;
+    color: #fff;
     text-decoration: none;
 }
 
