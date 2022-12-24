@@ -229,7 +229,7 @@ p{
 
 /* Hero Section css */
 #hero{
-    background-image: url(../images/user2.JPG);
+    background-image: url(../images/user3.jpg);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -243,7 +243,7 @@ p{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .7;
+    opacity: .1;
     z-index: -1;
 }
 /* Alignment of hero headers */
